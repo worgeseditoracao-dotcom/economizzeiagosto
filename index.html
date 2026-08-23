@@ -1,13 +1,114 @@
-<!doctype html><html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Economizzei</title><meta name="description" content="Controle financeiro pessoal e empresarial em um único aplicativo."><script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','1193761196228886');fbq('track','PageView');fbq('track','ViewContent');</script><style>
-:root{--p:#7217d5;--p2:#a23cff;--dark:#170b2d;--muted:#655d73;--bg:#faf8ff;--line:#e9e2f1;--green:#16865d}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--dark);background:white;line-height:1.55}a{text-decoration:none;color:inherit}.top{background:linear-gradient(90deg,#ffba18,#ff7a18);text-align:center;padding:8px 12px;font-size:12px;font-weight:800}.nav{height:66px;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:0 max(5vw,20px);border-bottom:1px solid var(--line);position:sticky;top:0;background:#fff;z-index:20}.brand{font-weight:900}.brand i{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:9px;background:linear-gradient(145deg,var(--p),var(--p2));color:#fff;font-style:normal;margin-right:8px}.links{display:flex;gap:28px;font-size:14px}.btn{display:inline-flex;align-items:center;justify-content:center;padding:14px 22px;border-radius:12px;background:var(--dark);color:#fff;border:0;font-weight:800;cursor:pointer;box-shadow:0 8px 24px #1c0d3826}.btn.purple{background:linear-gradient(135deg,var(--p),var(--p2))}.btn.ghost{background:#fff;color:var(--p);border:1px solid #d8c4ef;box-shadow:none}.wrap{width:min(1140px,92vw);margin:auto}.hero{padding:76px 0;background:radial-gradient(circle at 80% 30%,#ead8ff 0,transparent 32%),linear-gradient(135deg,#fff,#f8f3ff)}.grid2{display:grid;grid-template-columns:1.05fr .95fr;gap:52px;align-items:center}.tag{display:inline-block;padding:7px 10px;border:1px solid #dcc6f5;color:var(--p);border-radius:999px;font-size:11px;font-weight:900;text-transform:uppercase;letter-spacing:.08em}h1{font-size:clamp(42px,5.5vw,72px);line-height:.98;margin:22px 0}h2{font-size:clamp(30px,4vw,48px);line-height:1.08;margin:12px 0 18px}h3{margin:10px 0;font-size:21px}.lead{font-size:18px;color:var(--muted);max-width:650px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin:26px 0}.trust{display:flex;gap:20px;flex-wrap:wrap;color:var(--muted);font-size:13px}.phone{width:min(340px,78vw);aspect-ratio:9/17;margin:auto;border:12px solid #fff;border-radius:42px;background:linear-gradient(160deg,#220c43,#7217d5 55%,#b35cff);box-shadow:0 30px 70px #47128545;padding:24px;color:#fff;overflow:hidden}.phone .screen{height:100%;border-radius:26px;background:#fbf9ff;color:var(--dark);padding:18px}.screen .balance{padding:20px;border-radius:20px;background:linear-gradient(135deg,#6720c9,#a84cff);color:#fff}.mini{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:12px}.mini div{background:#fff;border:1px solid var(--line);border-radius:14px;padding:12px;font-size:12px}.bar{height:8px;background:#eee7f5;border-radius:99px;margin-top:9px}.bar span{display:block;height:100%;width:68%;background:var(--p2);border-radius:99px}section{padding:78px 0}.head{text-align:center;max-width:740px;margin:0 auto 38px}.eyebrow{color:var(--p);font-weight:900;text-transform:uppercase;letter-spacing:.09em;font-size:12px}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{border:1px solid var(--line);border-radius:22px;padding:24px;background:#fff;box-shadow:0 12px 30px #2f0a5610}.card p{color:var(--muted);margin-bottom:0}.check{list-style:none;padding:0;margin:20px 0}.check li{margin:10px 0;padding-left:24px;position:relative}.check li:before{content:'✓';position:absolute;left:0;color:var(--green);font-weight:900}.soft{background:var(--bg)}.demo-card{display:flex;flex-direction:column;min-height:290px}.demo-top{height:160px;border-radius:16px;background:linear-gradient(145deg,#1d0c36,#7424d0);color:#fff;padding:16px}.demo-top .chart{display:flex;gap:7px;align-items:end;height:80px;margin-top:12px}.demo-top .chart i{flex:1;background:#c989ff;border-radius:6px 6px 2px 2px}.demo-top .chart i:nth-child(2){height:55%}.demo-top .chart i:nth-child(3){height:90%}.demo-top .chart i:nth-child(4){height:68%}.demo-top .chart i:nth-child(5){height:100%}.compare{display:grid;grid-template-columns:1fr 1fr;gap:18px}.bad{background:#fff5f5;border-color:#ffd5d5}.good{background:#f3fff9;border-color:#bcebd5}.calc{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}.fields label{display:block;font-size:13px;font-weight:800;margin:13px 0 5px}.fields input{width:100%;padding:14px;border:1px solid var(--line);border-radius:12px;font-size:16px}.result{background:linear-gradient(145deg,#170b2d,#6120b6);color:#fff;border-radius:25px;padding:32px}.result strong{font-size:42px;display:block}.offer{background:linear-gradient(145deg,#15082b,#381060);color:#fff}.offer-box{width:min(760px,94vw);margin:auto;text-align:center;padding:38px;border:1px solid #ffffff2e;border-radius:28px;background:#ffffff0d}.price{font-size:74px;font-weight:900;line-height:1}.price small{font-size:28px}.faq{max-width:820px;margin:auto}.faq details{border-bottom:1px solid var(--line);padding:18px 0}.faq summary{cursor:pointer;font-weight:800}.sticky{position:fixed;right:18px;bottom:18px;z-index:30}.footer{padding:34px;text-align:center;color:var(--muted);font-size:13px;border-top:1px solid var(--line)}
-@media(max-width:800px){.links{display:none}.grid2,.calc,.compare{grid-template-columns:1fr}.hero{padding:48px 0}.cards{grid-template-columns:1fr}.phone{margin-top:10px}section{padding:58px 0}.sticky{right:10px;left:10px}.sticky .btn{width:100%}.nav .btn{padding:10px 13px;font-size:12px}h1{font-size:44px}}
-</style></head><body><div class="top">ACESSO COMPLETO POR R$ 47,90 • PAGAMENTO ÚNICO • SEM MENSALIDADE</div><nav class="nav"><a class="brand" href="#inicio"><i>₿</i>Economizzei</a><div class="links"><a href="#recursos">Recursos</a><a href="#negocio">Para negócios</a><a href="#oferta">Oferta</a><a href="#duvidas">Dúvidas</a></div><a class="btn checkout" href="#oferta">Comprar agora</a></nav><main id="inicio"><div class="hero"><div class="wrap grid2"><div><span class="tag">Acesso completo • pessoal + empresarial</span><h1>Tenha clareza sobre seu dinheiro e seu negócio.</h1><p class="lead">Organize sua vida financeira completa, acompanhe o crescimento da empresa e tome decisões com mais tranquilidade — tudo em um único aplicativo.</p><div class="actions"><a class="btn purple checkout" href="#oferta">Quero garantir por R$ 47,90</a><a class="btn ghost" href="#demonstracao">Ver o aplicativo funcionando</a></div><div class="trust"><span>✓ Pagamento único</span><span>✓ Acesso vitalício</span><span>✓ Celular e computador</span></div></div><div class="phone"><div class="screen"><small>Olá! Visão geral</small><div class="balance"><small>Saldo atual</small><h3>R$ 8.420,00</h3><div class="bar"><span></span></div></div><div class="mini"><div>Entradas<br><b>R$ 6.500</b></div><div>Saídas<br><b>R$ 4.500</b></div><div>Meta mensal<br><b>68%</b></div><div>Resultado<br><b>+ R$ 2.000</b></div></div></div></div></div></div>
-<section id="recursos"><div class="wrap"><div class="head"><span class="eyebrow">Dois controles em um</span><h2>Tudo o que está incluído</h2><p class="lead">Finanças pessoais e empresariais no mesmo acesso.</p></div><div class="cards"><article class="card"><h3>Finanças pessoais</h3><ul class="check"><li>Receitas e despesas</li><li>Saldo atual e projetado</li><li>Metas, dívidas e contas fixas</li><li>Resumo semanal</li><li>Relatórios e exportação</li></ul></article><article class="card" id="negocio"><h3>Meu negócio</h3><ul class="check"><li>Faturamento e gastos</li><li>Contas a pagar e receber</li><li>Fluxo de caixa projetado</li><li>Lucro e margem</li><li>Clientes e serviços</li></ul></article><article class="card"><h3>Em qualquer dispositivo</h3><p>Comece no computador e continue pelo celular usando a mesma conta.</p><ul class="check"><li>Dados sincronizados</li><li>Acesso vitalício</li><li>Sem mensalidade</li></ul></article></div></div></section>
-<section class="soft" id="demonstracao"><div class="wrap"><div class="head"><span class="eyebrow">Veja no celular</span><h2>As partes que mais ajudam no dia a dia</h2><p class="lead">Demonstrações do funcionamento do aplicativo, sem depender de imagens que possam deixar a página vazia.</p></div><div class="cards"><article class="card demo-card"><div class="demo-top"><b>Dashboard pessoal</b><div class="chart"><i style="height:35%"></i><i></i><i></i><i></i><i></i></div></div><h3>Dashboard pessoal</h3><p>Veja saldo, entradas, saídas e resultado do mês.</p></article><article class="card demo-card"><div class="demo-top"><b>Receitas e despesas</b><div class="mini"><div>Alimentação</div><div>Moradia</div><div>Transporte</div><div>Lazer</div></div></div><h3>Receitas e despesas</h3><p>Registre movimentações e veja para onde o dinheiro está indo.</p></article><article class="card demo-card"><div class="demo-top"><b>Dashboard empresarial</b><div class="mini"><div>Faturamento</div><div>Despesas</div><div>Lucro</div><div>Margem</div></div></div><h3>Dashboard empresarial</h3><p>Separe o negócio da vida pessoal.</p></article><article class="card demo-card"><div class="demo-top"><b>Metas e compromissos</b><div class="bar"><span style="width:74%"></span></div></div><h3>Metas e compromissos</h3><p>Acompanhe objetivos, contas futuras e dívidas.</p></article><article class="card demo-card"><div class="demo-top"><b>Fluxo de caixa</b><div class="chart"><i style="height:45%"></i><i></i><i></i><i></i><i></i></div></div><h3>Fluxo de caixa</h3><p>Compare entradas e saídas do negócio.</p></article><article class="card demo-card"><div class="demo-top"><b>Clientes e serviços</b><div class="mini"><div>Clientes</div><div>Produtos</div><div>Serviços</div><div>Resultados</div></div></div><h3>Clientes e produtos</h3><p>Entenda o que gera mais resultado.</p></article></div></div></section>
-<section><div class="wrap"><div class="head"><span class="eyebrow">Antes e depois</span><h2>Sem o app × Com o app</h2></div><div class="compare"><article class="card bad"><h3>Sem o app</h3><ul class="check"><li>Dinheiro pessoal e empresarial misturados</li><li>Planilhas espalhadas</li><li>Dificuldade para saber quanto sobrou</li><li>Decisões sem enxergar o mês inteiro</li></ul></article><article class="card good"><h3>Com o Economizzei</h3><ul class="check"><li>Áreas pessoal e empresarial separadas</li><li>Entradas e compromissos em um só lugar</li><li>Visão clara do saldo e do lucro</li><li>Relatórios para decidir melhor</li></ul></article></div></div></section>
-<section class="soft"><div class="wrap calc"><div class="fields"><span class="eyebrow">Simule agora</span><h2>Você sabe quanto realmente sobra no mês?</h2><label>Renda ou faturamento</label><input id="renda" type="number" value="6500"><label>Despesas pessoais</label><input id="pessoal" type="number" value="2800"><label>Despesas do negócio</label><input id="empresa" type="number" value="1700"></div><div class="result"><small>Valor disponível</small><strong id="saldo">R$ 2.000,00</strong><div>Renda comprometida: <b id="percent">69%</b></div><p>No app, você acompanha esses números todo mês e mantém pessoa e empresa separadas.</p></div></div></section>
-<section><div class="wrap"><div class="head"><span class="eyebrow">Garantia de satisfação</span><h2>Teste por 7 dias com tranquilidade.</h2><p class="lead">Você terá 7 dias corridos após a confirmação da compra. Se o aplicativo não atender às suas necessidades, solicite o cancelamento e o reembolso integral dentro do período.</p><div class="actions" style="justify-content:center"><a class="btn purple checkout" href="#oferta">Quero testar com garantia de 7 dias</a></div></div><div class="cards"><article class="card"><span class="tag">1</span><h3>Faça o pagamento</h3><p>Conclua a compra no ambiente seguro do checkout.</p></article><article class="card"><span class="tag">2</span><h3>Receba seu acesso</h3><p>As instruções chegam no e-mail informado na compra.</p></article><article class="card"><span class="tag">3</span><h3>Crie sua senha</h3><p>Entre e comece a organizar seus números.</p></article></div></div></section>
-<section class="offer" id="oferta"><div class="wrap"><div class="offer-box"><span class="tag">Acesso completo</span><h2>Organização financeira sem mensalidade.</h2><p>Pessoal + empresarial • acesso vitalício</p><div class="price"><small>R$</small>47<small>,90</small></div><p>Pagamento único. Sem cobrança mensal ou anual.</p><ul class="check" style="text-align:left;max-width:560px;margin:24px auto"><li>Controle pessoal com saldo projetado</li><li>Painel empresarial e fluxo de caixa</li><li>Lucro, margem e relatórios</li><li>Exportação para planilha</li><li>Sincronização entre celular e computador</li></ul><a class="btn purple checkout" href="https://pay.cakto.com.br/" target="_blank" rel="noopener">Quero meu acesso completo</a><p><small>Compra segura • Garantia de 7 dias • Suporte em até 48h</small></p></div></div></section>
-<section id="duvidas"><div class="wrap faq"><div class="head"><span class="eyebrow">Dúvidas</span><h2>Perguntas frequentes</h2></div><details><summary>O pagamento é mensal?</summary><p>Não. O pagamento de R$ 47,90 é único e o acesso é vitalício.</p></details><details><summary>Posso usar no celular e no computador?</summary><p>Sim. Seus dados ficam sincronizados ao entrar com a mesma conta.</p></details><details><summary>Serve para finanças pessoais e empresariais?</summary><p>Sim. As duas áreas estão incluídas e permanecem separadas dentro do aplicativo.</p></details><details><summary>Como recebo o acesso?</summary><p>As instruções são enviadas ao e-mail informado na compra.</p></details><details><summary>Existe garantia?</summary><p>Sim. Você pode solicitar cancelamento e reembolso integral em até 7 dias.</p></details></div></section></main><div class="sticky"><a class="btn purple checkout" href="#oferta">Comprar por R$ 47,90</a></div><footer class="footer">© 2026 Economizzei • Controle financeiro pessoal e empresarial</footer><script>
-const brl=v=>Number(v||0).toLocaleString('pt-BR',{style:'currency',currency:'BRL'});function calcular(){const r=+document.querySelector('#renda').value||0,p=+document.querySelector('#pessoal').value||0,e=+document.querySelector('#empresa').value||0;document.querySelector('#saldo').textContent=brl(r-p-e);document.querySelector('#percent').textContent=(r?Math.round((p+e)/r*100):0)+'%'}document.querySelectorAll('.fields input').forEach(i=>i.addEventListener('input',calcular));document.querySelectorAll('.checkout').forEach(a=>a.addEventListener('click',()=>{if(window.fbq)fbq('track','InitiateCheckout')}));
-</script></body><!-- sincronizacao-vercel-2026-08-23 --></html>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Economizzei</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              indigo: {
+                50: '#F5EBFF',
+                100: '#EBD6FF',
+                200: '#D6ADFF',
+                300: '#C285FF',
+                400: '#AD5CFF',
+                500: '#9D00FF', // Base color
+                600: '#8E00E6',
+                700: '#7A00C5',
+                800: '#5D0096',
+                900: '#42006B',
+                950: '#130029',
+              }
+            },
+            fontFamily: {
+              sans: ['DM Sans', 'ui-sans-serif', 'system-ui'],
+            },
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        font-family: 'DM Sans', sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        letter-spacing: -0.006em;
+        font-weight: 400;
+      }
+      /* Tipografia mais leve e elegante em toda a área interna. */
+      .font-black { font-weight: 600 !important; }
+      .font-extrabold { font-weight: 600 !important; }
+      .font-bold { font-weight: 600 !important; }
+      .font-semibold { font-weight: 550 !important; }
+      input, select, textarea, button { font-family: inherit; }
+      input[type="date"], select { min-width: 0; max-width: 100%; }
+      .mobile-bottom-nav {
+        min-height: 74px;
+        padding-bottom: max(.65rem, env(safe-area-inset-bottom));
+      }
+      .mobile-content-safe {
+        padding-bottom: 3.25rem;
+      }
+      @media (max-width: 640px) {
+        body { letter-spacing: 0; }
+        .tracking-widest, [class*="tracking-[0.2em]"] { letter-spacing: .08em !important; }
+      }
+      .custom-scrollbar::-webkit-scrollbar {
+        width: 4px;
+        height: 4px;
+      }
+      .custom-scrollbar::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      .custom-scrollbar::-webkit-scrollbar-thumb {
+        background: #e2e8f0;
+        border-radius: 10px;
+      }
+      @keyframes premiumReveal {
+        from { opacity: 0; transform: translateY(18px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes premiumCardEnter {
+        from { opacity: 0; transform: translateY(14px) scale(.98); }
+        to { opacity: 1; transform: translateY(0) scale(1); }
+      }
+      @keyframes premiumNumber {
+        from { opacity: 0; filter: blur(4px); }
+        to { opacity: 1; filter: blur(0); }
+      }
+      .premium-reveal { animation: premiumReveal .55s cubic-bezier(.2,.8,.2,1) both; }
+      .premium-card-enter { animation: premiumCardEnter .5s cubic-bezier(.2,.8,.2,1) both; }
+      .premium-number { animation: premiumNumber .7s ease-out .2s both; }
+      @media (prefers-reduced-motion: reduce) {
+        .premium-reveal, .premium-card-enter, .premium-number { animation: none !important; }
+        * { scroll-behavior: auto !important; }
+      }
+    </style>
+
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
+    "recharts": "https://aistudiocdn.com/recharts@^3.5.0",
+    "@supabase/supabase-js": "https://esm.sh/@supabase/supabase-js@^2.48.1"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/assets/index-oXGmoM5J.js"></script>
+</head>
+  <body class="bg-[#F8FAFC] text-slate-900 font-sans antialiased">
+    <div id="root"></div>
+    <script src="/demo-interativo.js"></script>
+  </body>
+</html>
